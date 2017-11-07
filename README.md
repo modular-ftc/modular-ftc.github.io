@@ -1,3 +1,6 @@
+---
+---
+
 {% include favicons.html %}
 
 # Modular FTC
