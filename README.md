@@ -20,3 +20,24 @@ We are always open to pull requests with improvements and we are happy to work t
 That's simple! Just fork or copy our repository [`modular-sample`](https://github.com/modular-ftc/modular-sample) and you're nearly done!
 
 If you import that project using Android Studio it should build and produce an app with two demonstration `OpMode`s. You're then free to customize the project's dependencies in the `TeamCode/build.gradle` file by removing our own [`Common-Code`](https://github.com/Pattonville-Robotics/Common-Code) library or adding your own dependencies such as `'org.apache.commons:commons-math3:3.6.1'` or our no-hassle OpenCV library [`opencv-repackaged`](https://github.com/modular-ftc/opencv-repackaged).
+
+### Technical Details
+If you're interested in how everything works behind the scenes, you've come to the right place.
+
+#### Maven repositories used:
+- `maven { url "https://jitpack.io" }`
+- `maven { url "https://raw.githubusercontent.com/Pattonville-Robotics/ftc-lib-repo/mvn-repo/" }`
+
+#### Repackaged artifacts:
+- `com.github.modular-ftc:robotcontroller-repackaged`
+- `com.github.modular-ftc:robotcore-repackaged`
+- `com.github.modular-ftc:ftc-common-repackaged`
+- `com.github.modular-ftc:vuforia-repackaged`
+- `com.github.modular-ftc:opencv-repackaged`
+
+#### Unmodified artifacts:
+- `org.first.ftc:hardware`
+- All other originals are hosted, but deprecated in favor of repackaged versions which fix various inconveniences and correctly specify all transitive dependencies
+
+## Contact info
+Have a great idea? Want to help out? Having trouble outside the scope of the core FTC team? Open an issue on the corrisponding repository or email me at <skaggsm333@gmail.com>!
