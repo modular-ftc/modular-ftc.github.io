@@ -40,4 +40,4 @@ If you're interested in how everything works behind the scenes, you've come to t
 - All other originals are hosted, but deprecated in favor of repackaged versions which fix various inconveniences and correctly specify all transitive dependencies
 
 ## Contact info
-Have a great idea? Want to help out? Having trouble outside the scope of the core FTC team? Open an issue on the corrisponding repository or email me at <skaggsm333@gmail.com>!
+Have a great idea? Want to help out? Having trouble with an issue outside the scope of the core FTC team? Open an issue on the corrisponding repository or use my contact email [here](https://github.com/magneticflux-)!
