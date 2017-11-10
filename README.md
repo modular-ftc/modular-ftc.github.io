@@ -21,7 +21,7 @@ That's simple! Just fork or copy our repository [`modular-sample`](https://githu
 
 If you import that project using Android Studio it should build and produce an app with two demonstration `OpMode`s. You're then free to customize the project's dependencies in the `TeamCode/build.gradle` file by removing our own [`Common-Code`](https://github.com/Pattonville-Robotics/Common-Code) library or adding your own dependencies such as `'org.apache.commons:commons-math3:3.6.1'` or our no-hassle OpenCV library [`opencv-repackaged`](https://github.com/modular-ftc/opencv-repackaged).
 
-![Robot Controller sample](./images/robot_controller_1.png){:height="50%" width="50%"}
+![Robot Controller sample](./images/robot_controller_1.png)
 
 ### Technical Details
 If you're interested in how everything works behind the scenes, you've come to the right place.
