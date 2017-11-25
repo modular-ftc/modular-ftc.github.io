@@ -1,7 +1,7 @@
 {% include favicons.html %}
 
 # Modular FTC
-The Modular FTC organization aims to improve the FTC robot controller app through easy community involvement and rapid development.
+The Modular FTC organization aims to improve the FTC robot controller app through easy community involvement and rapid development. We are not affiliated with FIRST.
 
 ## Why use this?
 ### Ease of modification
